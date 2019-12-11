@@ -1,0 +1,144 @@
+{
+    "name": "Plain",
+    "place": "_frame",
+    "unit": [
+        "5-2-1",
+        "6-2-2"
+    ],
+    "scenarioarrays": [
+        {
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 1,
+                    "message": ""
+                },
+				{
+                    "unitno": 1,
+                    "action": 1,
+                    "message": ""
+                }
+            ]
+        },
+
+        {
+            "scenario": [
+				{
+                    "unitno": 0,
+                    "action": 3,
+                    "message": "よっ、ついた!"
+                }
+            ]
+        },
+
+        {
+            "scenario": [
+				{
+                    "unitno": 0,
+                    "action": 0,
+                    "message": ""
+                },
+                {
+                    "unitno": 1,
+                    "action": 11,
+                    "message": "このあたりのはずなんだけど・・・"
+                }
+            ]
+        },
+        {
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 1,
+                    "message": ""
+                }
+            ]
+        },
+        {
+            "scenario": [
+                {
+                    "unitno": 1,
+                    "action": 4,
+                    "message": ""
+                },
+				{
+                    "unitno": 0,
+                    "action": 4,
+                    "message": "いた!リコちゃん!"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 61,
+                    "message": "・・・・・・"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 5,
+                    "message": "リコちゃん・・・?"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 62,
+                    "message": "しもべたちよ・・・!"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 4,
+                    "message": "!!"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 4,
+                    "message": "どうしちゃったんだろ・・・"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 0,
+                    "action": 22,
+                    "message": "よーちゃん!止めないと!"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 1,
+                    "action": 2,
+                    "message": "(だいたい想像は付くけど・・・)"
+                }
+            ]
+        },
+		{
+            "scenario": [
+                {
+                    "unitno": 1,
+                    "action": 22,
+                    "message": "うん、よしっ!いこう!"
+                }
+            ]
+        }
+    ]
+}

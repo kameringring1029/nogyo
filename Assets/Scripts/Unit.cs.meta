@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 3420aff5d0b19ef49867fbd09fea0166
+timeCreated: 1507781749
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - shadePrefab: {fileID: 1156845432597714, guid: 4d333e4f754b94e48bf1a4190c44f7ab,
+      type: 2}
+  - movableAreaPrefab: {fileID: 1244412778909820, guid: ea639b230c48e234b8fd223e1361bae3,
+      type: 2}
+  - reachAreaPrefab: {fileID: 1388970733962978, guid: a840ed92ac799ed48bdfdede4dadf3c4,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
