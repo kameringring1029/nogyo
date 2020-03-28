@@ -38,9 +38,11 @@ public class DeliverBackground : MonoBehaviour
      * 背景ループするようにしようね
      */
     private void OnBecameInvisible()
-    { 
-            transform.position = pair.transform.position - new Vector3( pair.transform.localScale.x * 2.5f,0,0) ;
-            randSprite();
+    {
+        if (transform == null) return;
+
+        transform.position = pair.transform.position - new Vector3( pair.transform.localScale.x * 2.5f,0,0) ;
+        randSprite();
        
     }
 
@@ -109,7 +111,7 @@ public class DeliverBackground : MonoBehaviour
         switch (layername)
         {
             case "guardrail": // ガードレール
-                percent = 5; break;
+                percent = 10; break;
             case "wall": // かべ
                 percent = 20; break;
             case "background_fore": // ビル前景

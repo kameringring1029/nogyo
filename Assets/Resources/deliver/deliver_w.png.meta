@@ -6,6 +6,8 @@ TextureImporter:
     21300002: deliver_w_1
     21300004: deliver_w_2
     21300006: deliver_w_3
+    21300008: deliver_w_4
+    21300010: deliver_w_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -124,7 +126,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 620655db877614318a9b6eeaad4b2a6b
+      spriteID: 6e91010742cf34c9a8e159e857b96bbf
       vertices: []
       indices: 
       edges: []
@@ -144,13 +146,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c57d069df08a14b44a3721e3c2ecb1fb
+      spriteID: de947f3f11aca4de498edd471b3315f7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: deliver_w_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 168
+        width: 256
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596384d341a614ed19b2ad35251016c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deliver_w_3
       rect:
         serializedVersion: 2
         x: 0
@@ -164,13 +186,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 721ee74eb799843bebf5b308ce6c4f82
+      spriteID: d9f432ace1e8844198a7bfcdd7e183d2
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deliver_w_3
+      name: deliver_w_4
       rect:
         serializedVersion: 2
         x: 256
@@ -184,7 +206,27 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f5fc84684b64441b803d2db89c16414
+      spriteID: 50def219eedad42859447261fce41ab9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deliver_w_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df694606654e74cdc8e2fa4319a9aef5
       vertices: []
       indices: 
       edges: []
@@ -192,7 +234,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 397abf34e54234110b515baa549c0b67
+    spriteID: 872b734fa833348038ac82c1435eafe6
     vertices: []
     indices: 
     edges: []
