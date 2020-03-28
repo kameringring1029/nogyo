@@ -4,6 +4,8 @@ TextureImporter:
   fileIDToRecycleName:
     21300000: deliver_w_0
     21300002: deliver_w_1
+    21300004: deliver_w_2
+    21300006: deliver_w_3
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -112,6 +114,46 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
+        y: 168
+        width: 256
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620655db877614318a9b6eeaad4b2a6b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deliver_w_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 168
+        width: 256
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57d069df08a14b44a3721e3c2ecb1fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deliver_w_2
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 0
         width: 256
         height: 168
@@ -122,13 +164,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61391649c121a401da54d5066dd4057b
+      spriteID: 721ee74eb799843bebf5b308ce6c4f82
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deliver_w_1
+      name: deliver_w_3
       rect:
         serializedVersion: 2
         x: 256
@@ -142,7 +184,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f7d03a5bae0548eab8faec398165f72
+      spriteID: 7f5fc84684b64441b803d2db89c16414
       vertices: []
       indices: 
       edges: []
@@ -150,7 +192,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 79fbbfed3d7a44652a5e4929a726e78b
+    spriteID: 397abf34e54234110b515baa549c0b67
     vertices: []
     indices: 
     edges: []

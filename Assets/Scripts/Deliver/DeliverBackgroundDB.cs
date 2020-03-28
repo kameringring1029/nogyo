@@ -1,7 +1,6 @@
 ﻿using System;
-public class NewClass
+public class DeliverBackgroundDB
 {
-    public NewClass()
-    {
-    }
+
+
 }

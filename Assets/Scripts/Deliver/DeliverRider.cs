@@ -37,6 +37,7 @@ public class DeliverRider : SingletonMonoBehaviour<DeliverRider>
                 if (scale_now >= scale_orig + scale_incre * 10) // 手前に動ききったら
                 {
                     vect_curving = 0;
+                    gameObject.layer = LayerMask.NameToLayer("forelane_fore");
                 }
                 else
                 {
@@ -47,6 +48,7 @@ public class DeliverRider : SingletonMonoBehaviour<DeliverRider>
                 if (scale_now <= scale_orig) // 奥に動ききったら
                 {
                     vect_curving = 0;
+                    gameObject.layer = LayerMask.NameToLayer("forelane_back");
                 }
                 else
                 {
