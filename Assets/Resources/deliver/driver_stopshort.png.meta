@@ -1,16 +1,17 @@
 fileFormatVersion: 2
-guid: c3dd15f82c089419ab7f859a92951608
+guid: e413054c35f4e47e0b1a02181edab822
 TextureImporter:
   fileIDToRecycleName:
-    21300000: deliver_r_0
-    21300002: deliver_r_1
-    21300004: deliver_r_2
-    21300006: deliver_r_3
-    21300008: deliver_r_4
-    21300010: deliver_r_5
-    21300012: deliver_r_6
-    21300014: deliver_r_7
-    21300016: deliver_r_8
+    21300000: driver_stopshort_0
+    21300002: driver_stopshort_1
+    21300004: driver_stopshort_2
+    21300006: driver_stopshort_3
+    21300008: driver_stopshort_4
+    21300010: driver_stopshort_5
+    21300012: driver_stopshort_6
+    21300014: driver_stopshort_7
+    21300016: driver_stopshort_8
+    21300018: driver_stopshort_9
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -115,133 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: deliver_r_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 800
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 417cf05c4870445d78b5f4e3c3567290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_1
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 800
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97e63a770810a4272bb4cab2a0e51a69
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_2
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 800
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 260ed9c46be1f487183bda91dfe9498d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8924db50ac7f84b968e9ffc9424c4993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_4
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e05d4477b5e6d4969b90fb900a75a9f2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_5
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c03e3c2aabdd4106a918e2efd6ccaf7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_6
+      name: driver_stopshort_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 400
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,19 +130,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61bcab0c1c9d0458997d14699ba3b576
+      spriteID: abf0ce71212344f1285039ba196cb76e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deliver_r_7
+      name: driver_stopshort_1
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 0
-        width: 400
-        height: 400
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9566150648d3f4bf0b8bd0559283fc2d
+      spriteID: 692ef20b4ccf04243bde7c3cf1b3198d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deliver_r_8
+      name: driver_stopshort_2
       rect:
         serializedVersion: 2
-        x: 800
+        x: 640
         y: 0
-        width: 400
-        height: 400
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,7 +170,147 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a24beef6c65044c886e964f08f7ef6c
+      spriteID: 448c89d114b144bfe9693015b040e10e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_stopshort_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6bd75a77e4d24dbe957044a8d221d7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_stopshort_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81bcf532bb0a4bb19b4042450c59cf2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_stopshort_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700dfe6c67ec94087b19aaf8f1234358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_stopshort_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af383695036fa4255a2e35f7a951adc0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_stopshort_7
+      rect:
+        serializedVersion: 2
+        x: 2240
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67f568d8b41449d282a858ff0bf50ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_stopshort_8
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b3ecdc443994764bc291ab96f1fc70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_stopshort_9
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595169f065b184fff9877309c78f5562
       vertices: []
       indices: 
       edges: []
@@ -297,7 +318,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a9b0c6107553a43939eb128a9ceb7fee
+    spriteID: 08cbc22e45b4d4b5a98de5c6ddeefc3b
     vertices: []
     indices: 
     edges: []

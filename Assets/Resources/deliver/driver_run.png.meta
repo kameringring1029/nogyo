@@ -1,16 +1,14 @@
 fileFormatVersion: 2
-guid: c3dd15f82c089419ab7f859a92951608
+guid: 92d548632b5834f62bd64e35202783fc
 TextureImporter:
   fileIDToRecycleName:
-    21300000: deliver_r_0
-    21300002: deliver_r_1
-    21300004: deliver_r_2
-    21300006: deliver_r_3
-    21300008: deliver_r_4
-    21300010: deliver_r_5
-    21300012: deliver_r_6
-    21300014: deliver_r_7
-    21300016: deliver_r_8
+    21300000: driver_run_0
+    21300002: driver_run_1
+    21300004: driver_run_2
+    21300006: driver_run_3
+    21300008: driver_run_4
+    21300010: driver_run_5
+    21300012: driver_run_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -115,133 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: deliver_r_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 800
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 417cf05c4870445d78b5f4e3c3567290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_1
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 800
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 97e63a770810a4272bb4cab2a0e51a69
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_2
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 800
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 260ed9c46be1f487183bda91dfe9498d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8924db50ac7f84b968e9ffc9424c4993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_4
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e05d4477b5e6d4969b90fb900a75a9f2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_5
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 400
-        width: 400
-        height: 400
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c03e3c2aabdd4106a918e2efd6ccaf7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deliver_r_6
+      name: driver_run_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 400
-        height: 400
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,19 +127,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61bcab0c1c9d0458997d14699ba3b576
+      spriteID: 71bc63757c2384a6b95851d61308863e
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deliver_r_7
+      name: driver_run_1
       rect:
         serializedVersion: 2
-        x: 400
+        x: 320
         y: 0
-        width: 400
-        height: 400
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,19 +147,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9566150648d3f4bf0b8bd0559283fc2d
+      spriteID: 2e52fc4d631034013905ef9c3a4ee950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: deliver_r_8
+      name: driver_run_2
       rect:
         serializedVersion: 2
-        x: 800
+        x: 640
         y: 0
-        width: 400
-        height: 400
+        width: 320
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,7 +167,87 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a24beef6c65044c886e964f08f7ef6c
+      spriteID: f2e632a5a9073435087f4e0ca161c4e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_run_3
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6ca8e9c44a148d49f889bce33a9602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_run_4
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb002afb616445748fce627aa8ea44b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_run_5
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4c4b6d381a3444a7a0fb6461d124b39
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: driver_run_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 320
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab26fad5e2fc4829bb493ed4f3c92c9
       vertices: []
       indices: 
       edges: []
@@ -297,7 +255,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a9b0c6107553a43939eb128a9ceb7fee
+    spriteID: 1d6cc42bb3cc145228ae14de890bbdb7
     vertices: []
     indices: 
     edges: []
