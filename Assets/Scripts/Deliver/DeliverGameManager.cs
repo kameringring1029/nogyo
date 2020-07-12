@@ -16,6 +16,7 @@ public class DeliverGameManager : SingletonMonoBehaviour<DeliverGameManager>
     // Start is called before the first frame update
     void Start()
     {
+
         flg_break = false;
         speed = 0;
     }
@@ -92,12 +93,21 @@ public class DeliverGameManager : SingletonMonoBehaviour<DeliverGameManager>
                 speed_max = 2.0f;
                 speed_acce = 0.01f;
                 DeliverRider.Instance.GetComponent<Animator>().SetInteger("state",0);
+
+                DeliverBespa.Instance.GetComponent<SpriteRenderer>().enabled = false;
+
+                DeliverBespa.Instance.mode = DeliverBespa.MODE.bike;
+
                 break;
+
             case RIDE.WALK:
                 Debug.Log("change to walk");
                 speed_max = 0.5f;
                 speed_acce = 0.003f;
                 DeliverRider.Instance.GetComponent<Animator>().SetInteger("state", 1);
+
+                DeliverBespa.Instance.GetComponent<SpriteRenderer>().enabled = true;
+
                 break;
         }
 
