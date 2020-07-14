@@ -12,6 +12,7 @@ public class DeliverRider : SingletonMonoBehaviour<DeliverRider>
     // Start is called before the first frame update
     void Start()
     {
+        
         scale_orig = gameObject.GetComponent<Transform>().localScale.x;
         
     }
@@ -21,6 +22,8 @@ public class DeliverRider : SingletonMonoBehaviour<DeliverRider>
     {
 
         if (vect_curving != 0) curve(); //直進以外はカーブの動き
+
+
     }
 
 
@@ -90,6 +93,20 @@ public class DeliverRider : SingletonMonoBehaviour<DeliverRider>
 
         vect_curving = vect;
         Debug.Log("curve:"+vect_curving);
+    }
+
+
+    public void onClick()
+    {
+        switch (DeliverGameManager.Instance.rider_state)
+        {
+            case DeliverGameManager.RIDE.RIDE:
+                DeliverGameManager.Instance.changeRiderState(DeliverGameManager.RIDE.WALK);
+                break;
+            case DeliverGameManager.RIDE.WALK:
+                DeliverGameManager.Instance.changeRiderState(DeliverGameManager.RIDE.RIDE);
+                break;
+        }
     }
 }
 

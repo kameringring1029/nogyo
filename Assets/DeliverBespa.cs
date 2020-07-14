@@ -9,22 +9,29 @@ public class DeliverBespa : SingletonMonoBehaviour<DeliverBespa>
     float movespeed = 0.03f;
 
     public enum MODE { bike, fly}
-    public MODE mode;
+    public MODE mode { private set; get; }
 
     float elapsedtime = 0f;
 
     float[] deltaxy = new float[2];
 
+    public Vector3 pos_orig;
+
+
+    public PolygonCollider2D[] collider = new PolygonCollider2D[2];
+
     // Start is called before the first frame update
     void Start()
     {
-        mode = MODE.bike;
+        pos_orig = transform.position;
+
+        setMode(MODE.bike);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("bespa");
 
         // バイク置いてる状態
         if(mode==MODE.bike && DeliverGameManager.Instance.rider_state == DeliverGameManager.RIDE.WALK)
@@ -37,7 +44,6 @@ public class DeliverBespa : SingletonMonoBehaviour<DeliverBespa>
         else if (mode == MODE.fly)
         {
             // riderに向かって動く
-            
 
             // 一定時間ごとに移動方向ランダム決定
             elapsedtime += Time.deltaTime;
@@ -81,29 +87,80 @@ public class DeliverBespa : SingletonMonoBehaviour<DeliverBespa>
      */
     private void OnBecameInvisible()
     {
+        // 透明化したときは例外
+        if (GetComponent<SpriteRenderer>().enabled == false) return;
+
+        // 処理
         switch (mode)
         {
             case MODE.bike:
-                mode = MODE.fly;
+                setMode(MODE.fly);
                 break;
             case MODE.fly:
+                setMode(MODE.bike);
+                break;
+        }
+
+    }
+
+
+    /*
+     * mode変更
+     */
+    public void setMode(MODE modeto)
+    {
+        switch (modeto)
+        {
+            case MODE.bike:
+                Debug.Log("bike");
                 mode = MODE.bike;
+                switchCollider(MODE.bike);
+                transform.position = pos_orig;
+                break;
+            case MODE.fly:
+                Debug.Log("fly");
+                mode = MODE.fly;
+                switchCollider(MODE.fly);
                 break;
         }
 
         GetComponent<Animator>().SetInteger("mode", (int)mode);
     }
 
-
-    // つかってない
-    public void setMode(MODE modeto)
+    /*
+     * stateへColliderを変更
+     */
+    void switchCollider(MODE modeto)
     {
         switch (modeto)
         {
             case MODE.bike:
+                collider[0].enabled = true;
+                collider[1].enabled = false;
                 break;
+
             case MODE.fly:
+                collider[0].enabled = false;
+                collider[1].enabled = true;
                 break;
         }
     }
+
+    /*
+     * onclick
+     */
+    public void onClick()
+    {
+        switch (DeliverGameManager.Instance.rider_state)
+        {
+            case DeliverGameManager.RIDE.RIDE:
+                DeliverGameManager.Instance.changeRiderState(DeliverGameManager.RIDE.WALK);
+                break;
+            case DeliverGameManager.RIDE.WALK:
+                DeliverGameManager.Instance.changeRiderState(DeliverGameManager.RIDE.RIDE);
+                break;
+        }
+    }
+
+
 }

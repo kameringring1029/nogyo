@@ -12,6 +12,15 @@ public class DeliverButtons : MonoBehaviour
     public void onClickBrake()
 	{
         DeliverGameManager.Instance.trgBrake();
+        switch (DeliverGameManager.Instance.flg_break)
+        {
+            case true:
+                GetComponent<Animator>().SetBool("isBreaking", true);
+                break;
+            case false:
+                GetComponent<Animator>().SetBool("isBreaking", false);
+                break;
+        }
 	}
 
     public void onClickRide()
@@ -26,4 +35,5 @@ public class DeliverButtons : MonoBehaviour
                 break;
         }
     }
+
 }

@@ -8,7 +8,7 @@ public class DeliverGameManager : SingletonMonoBehaviour<DeliverGameManager>
     public RIDE rider_state = RIDE.RIDE;
 
     public float speed { get; private set; } //今のスピード
-    bool flg_break; //ブレーキかけてるフラグ
+    public bool flg_break { private set; get; } //ブレーキかけてるフラグ
 
     float speed_max = 2f; // 最高速度
     float speed_acce = 0.01f; // 加速度
@@ -16,9 +16,9 @@ public class DeliverGameManager : SingletonMonoBehaviour<DeliverGameManager>
     // Start is called before the first frame update
     void Start()
     {
-
         flg_break = false;
         speed = 0;
+
     }
 
     // Update is called once per frame
@@ -92,11 +92,10 @@ public class DeliverGameManager : SingletonMonoBehaviour<DeliverGameManager>
                 Debug.Log("change to Ride");
                 speed_max = 2.0f;
                 speed_acce = 0.01f;
-                DeliverRider.Instance.GetComponent<Animator>().SetInteger("state",0);
+                DeliverRider.Instance.GetComponent<Animator>().SetInteger("state", 0);
+                DeliverBespa.Instance.setMode( DeliverBespa.MODE.bike);
 
                 DeliverBespa.Instance.GetComponent<SpriteRenderer>().enabled = false;
-
-                DeliverBespa.Instance.mode = DeliverBespa.MODE.bike;
 
                 break;
 
@@ -105,7 +104,7 @@ public class DeliverGameManager : SingletonMonoBehaviour<DeliverGameManager>
                 speed_max = 0.5f;
                 speed_acce = 0.003f;
                 DeliverRider.Instance.GetComponent<Animator>().SetInteger("state", 1);
-
+                //DeliverBespa.Instance.setMode(DeliverBespa.MODE.fly);
                 DeliverBespa.Instance.GetComponent<SpriteRenderer>().enabled = true;
 
                 break;
