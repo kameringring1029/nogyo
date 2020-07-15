@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1420388aff35f4c95a50ddf909e9f582
+guid: a3c2b84c98cec49439b60a78300cd6b0
 TextureImporter:
   fileIDToRecycleName:
     21300000: vespa_wait-fly_0
@@ -117,13 +117,13 @@ TextureImporter:
         width: 640
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d7c9c12b3e4438ca07228e09dee027
+      spriteID: 07627928d01df4af0b90dcada0370c6e
       vertices: []
       indices: 
       edges: []
@@ -137,13 +137,13 @@ TextureImporter:
         width: 640
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a290a4c89045d44a8900baf831e8dab6
+      spriteID: 487dcfd69962649d49916df00b2431bf
       vertices: []
       indices: 
       edges: []
@@ -157,13 +157,13 @@ TextureImporter:
         width: 640
         height: 320
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22109d43f0cb74c9a94cde7349de22cb
+      spriteID: c0a311ffae3134be2a1c2f4efd1e02f7
       vertices: []
       indices: 
       edges: []
@@ -171,7 +171,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c760e6e8e321347b3a42e953e81e6303
+    spriteID: 0129ae0b3b3df403493c3eaea9200fe5
     vertices: []
     indices: 
     edges: []
