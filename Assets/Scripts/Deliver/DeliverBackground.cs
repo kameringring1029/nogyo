@@ -99,7 +99,7 @@ public class DeliverBackground : MonoBehaviour
     }
 
     /*
-     *
+     * 背景のランダム表示確率
      */
     static int getRandSpritePercentByLayer(int layer)
     {

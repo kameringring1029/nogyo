@@ -96,17 +96,6 @@ public class DeliverRider : SingletonMonoBehaviour<DeliverRider>
     }
 
 
-    public void onClick()
-    {
-        switch (DeliverGameManager.Instance.rider_state)
-        {
-            case DeliverGameManager.RIDE.RIDE:
-                DeliverGameManager.Instance.changeRiderState(DeliverGameManager.RIDE.WALK);
-                break;
-            case DeliverGameManager.RIDE.WALK:
-                DeliverGameManager.Instance.changeRiderState(DeliverGameManager.RIDE.RIDE);
-                break;
-        }
-    }
+
 }
 
